@@ -52,7 +52,7 @@ function App() {
     // Initialize an empty array to store the result
     let result = [];
     // Loop through the entries of the anagramMap
-    for (const [sortedWord, anagrams] of anagramMap) {
+    for (const [anagrams] of anagramMap) {
       // Join the array of anagrams with a space separator and add it to the result array
       result.push(anagrams.join(" "));
     }
